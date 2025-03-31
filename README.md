@@ -63,8 +63,6 @@ Recommendations are generated dynamically based on customer query
 ✅ Service Account with roles/bigquery.dataEditor used securely
 ✅ Terraform manages IAM roles, Lambda, EKS, and Bedrock setup
 
-<img width="1350" alt="Screenshot 2025-03-30 at 19 00 54" src="https://github.com/user-attachments/assets/af0e7dbf-3980-48eb-9a77-5b31962b6dfd" />
 
-<img width="1346" alt="Screenshot 2025-03-30 at 19 05 08" src="https://github.com/user-attachments/assets/970c2ff2-66f3-4a79-ad0f-8aaec2d86b8a" />
 
 
