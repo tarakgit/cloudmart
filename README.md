@@ -63,6 +63,18 @@ Recommendations are generated dynamically based on customer query
 ✅ Service Account with roles/bigquery.dataEditor used securely
 ✅ Terraform manages IAM roles, Lambda, EKS, and Bedrock setup
 
+## 🚀 CloudMart Project Overview
+
+### 🌐 Web App Interface
+![Web UI](https://github.com/user-attachments/assets/4d493aec-0bde-4390-ae64-5fbb9d191e00)
+
+### 📊 Product Catalog View
+![Catalog Screenshot](https://github.com/user-attachments/assets/66914284-6e9f-487c-8114-eb0c36593fd6)
+
+### 🛒 AI-powered Product Suggestion
+![AI Suggestion](https://github.com/user-attachments/assets/4e582698-10a5-46ef-b632-d3a9afb77a35)
+
+
 
 
 
