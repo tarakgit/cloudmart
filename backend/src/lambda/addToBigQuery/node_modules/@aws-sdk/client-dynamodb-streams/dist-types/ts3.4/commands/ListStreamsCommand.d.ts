@@ -1,0 +1,47 @@
+import { Command as $Command } from "@smithy/smithy-client";
+import { MetadataBearer as __MetadataBearer } from "@smithy/types";
+import {
+  DynamoDBStreamsClientResolvedConfig,
+  ServiceInputTypes,
+  ServiceOutputTypes,
+} from "../DynamoDBStreamsClient";
+import { ListStreamsInput, ListStreamsOutput } from "../models/models_0";
+export { __MetadataBearer };
+export { $Command };
+export interface ListStreamsCommandInput extends ListStreamsInput {}
+export interface ListStreamsCommandOutput
+  extends ListStreamsOutput,
+    __MetadataBearer {}
+declare const ListStreamsCommand_base: {
+  new (
+    input: ListStreamsCommandInput
+  ): import("@smithy/smithy-client").CommandImpl<
+    ListStreamsCommandInput,
+    ListStreamsCommandOutput,
+    DynamoDBStreamsClientResolvedConfig,
+    ServiceInputTypes,
+    ServiceOutputTypes
+  >;
+  new (
+    ...[input]: [] | [ListStreamsCommandInput]
+  ): import("@smithy/smithy-client").CommandImpl<
+    ListStreamsCommandInput,
+    ListStreamsCommandOutput,
+    DynamoDBStreamsClientResolvedConfig,
+    ServiceInputTypes,
+    ServiceOutputTypes
+  >;
+  getEndpointParameterInstructions(): import("@smithy/middleware-endpoint").EndpointParameterInstructions;
+};
+export declare class ListStreamsCommand extends ListStreamsCommand_base {
+  protected static __types: {
+    api: {
+      input: ListStreamsInput;
+      output: ListStreamsOutput;
+    };
+    sdk: {
+      input: ListStreamsCommandInput;
+      output: ListStreamsCommandOutput;
+    };
+  };
+}

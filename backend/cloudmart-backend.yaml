@@ -1,0 +1,49 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: cloudmart-backend-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: cloudmart-backend-app
+  template:
+    metadata:
+      labels:
+        app: cloudmart-backend-app
+    spec:
+      serviceAccountName: cloudmart-pod-execution-role
+      containers:
+      - name: cloudmart-backend-app
+        image: public.ecr.aws/v8m6b9m7/cloudmart-backend:latest
+        env:
+        - name: PORT
+          value: "5000"
+        - name: AWS_REGION
+          value: "us-east-1"
+        - name: BEDROCK_AGENT_ID
+          value: "JMW2SKCBIW"
+        - name: BEDROCK_AGENT_ALIAS_ID
+          value: "EYBQJ9AIJZ"
+        - name: OPENAI_API_KEY
+          value: "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"
+        - name: OPENAI_ASSISTANT_ID
+          value: "asst_x92RgEVPH5i6NcaFICnm4XE5"
+        - name: AZURE_ENDPOINT
+          value: "https://cloudmart-text-analytics-349.cognitiveservices.azure.com/"
+        - name: AZURE_API_KEY
+          value: "7gSceMFMSJgiylk2OPKDVFFUR5yB7niNyFpfJRx8Wnl1pDVAKkMKJQQJ99BCACYeBjFXJ3w3AAAaACOGCmCO"
+---
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: cloudmart-backend-app-service
+spec:
+  type: LoadBalancer
+  selector:
+    app: cloudmart-backend-app
+  ports:
+    - protocol: TCP
+      port: 5000
+      targetPort: 5000
