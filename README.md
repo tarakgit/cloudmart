@@ -64,9 +64,19 @@ Recommendations are generated dynamically based on customer query
 ✅ Terraform manages IAM roles, Lambda, EKS, and Bedrock setup
 
 
-
-
+```
 
 ### 🛒 AI-powered Product Suggestion
-![AI Suggestion](https://private-user-images.githubusercontent.com/35989016/428577932-15d8c81c-de63-40cb-b3be-f869cc6debf1.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDM0MTcyMjQsIm5iZiI6MTc0MzQxNjkyNCwicGF0aCI6Ii8zNTk4OTAxNi80Mjg1Nzc5MzItMTVkOGM4MWMtZGU2My00MGNiLWIzYmUtZjg2OWNjNmRlYmYxLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAzMzElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMzMxVDEwMjg0NFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWVjYWI5Y2UwYzgxNjRjODM1MWIzODg2ZGU5MTVlNGRmNzI0ODRmY2U0YzlhZWJhMDRlMWVkYmY0MjVlOTMzNzQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.t_i0BOSqK9AaDYTCay7UXGpGBToUEw-Aoe_Lm4zBK5c)
+![AI Suggestion](https://raw.githubusercontent.com/tarakgit/cloudmart/main/images/AI-Powered%20Product%20Recommendation%20Panel.png)
+
+### 💬 AI-Powered Customer Support Chat
+This interface handles customer support queries using a conversational agent. Users can cancel orders or get updates — powered by Bedrock + Lambda + Order DB.
+
+![AI Support Chat](https://raw.githubusercontent.com/tarakgit/cloudmart/main/images/AI-Powered%20Customer%20Support%20Chat.png)
+
+### 📦 Orders Page
+The “My Orders” page shows order status with real-time updates. Cancelled and pending orders are listed with unique order IDs and action buttons.
+
+![My Orders Page](https://raw.githubusercontent.com/tarakgit/cloudmart/main/images/Screenshot%202025-03-30%20at%2019.05.20.png)
+
 
