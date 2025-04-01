@@ -2,6 +2,12 @@
 
 CloudMart is a cloud-native, AI-powered e-commerce platform built as part of the **Multicloud DevOps AI Challenge**. This project demonstrates how intelligent automation, scalable infrastructure, and cross-cloud integration can power modern applications.
 
+## 🧭 Architecture Overview
+
+CloudMart leverages a multicloud infrastructure integrating **AWS**, **GCP**, and **Azure** with advanced AI capabilities from **Amazon Bedrock** and **Azure AI**. It uses Terraform and GitHub Actions to provision and automate the full stack — including deployment on Amazon EKS.
+
+![Architecture Diagram](https://raw.githubusercontent.com/tarakgit/cloudmart/main/images/Architecture.png)
+
 ---
 
 ## 🚀 Tech Stack
