@@ -77,6 +77,11 @@ This interface handles customer support queries using a conversational agent. Us
 ### 📦 Orders Page
 The “My Orders” page shows order status with real-time updates. Cancelled and pending orders are listed with unique order IDs and action buttons.
 
-![My Orders Page](https://raw.githubusercontent.com/tarakgit/cloudmart/main/images/Screenshot%202025-03-30%20at%2019.05.20.png)
+![My Orders Page](https://raw.githubusercontent.com/tarakgit/cloudmart/main/images/Ordersupdate.png)
+
+### 🧠 AI-Powered Sentiment Analysis (Azure)
+This feature leverages **Microsoft Azure AI Language Service** to analyze user emotions during support conversations. Based on the sentiment (positive, neutral, negative), the AI adjusts its tone and response.
+
+![Sentiment Analysis](https://raw.githubusercontent.com/tarakgit/cloudmart/main/images/Sentiment%20Analysis%20usingAzure%20Language.png)
 
 
